@@ -8,9 +8,9 @@ def oxford_comma(array)
     array.join(" and ")
   elsif array.size >= 3
     array.each do |word|
-      if array.size > array.index
+      if array.size > word.index
         word << ","
-      else array.size == array.index
+      else array.size == word.index
         word = "and " + word
       end
     end
