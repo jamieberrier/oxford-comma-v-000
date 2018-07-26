@@ -14,9 +14,8 @@ def oxford_comma(array)
         counter += 1
       else
         word = "and " + word
-      binding.pry
       end
-    array.join
+    array.join(" ")
     end
   end
 
