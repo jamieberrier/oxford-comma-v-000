@@ -1,5 +1,9 @@
 def oxford_comma(array)
 
+  array.each do |word|
+
+  end
+
   # if array.size == 1
   #   array.join
   # elsif array.size == 2
