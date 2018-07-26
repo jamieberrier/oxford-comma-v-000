@@ -9,6 +9,7 @@ def oxford_comma(array)
     array.each do |word|
       while array.size > counter
         word << ", "
+        counter += 1
       end
         word.unshift("and ")
     end
