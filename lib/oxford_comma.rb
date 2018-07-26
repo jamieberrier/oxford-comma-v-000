@@ -12,6 +12,7 @@ def oxford_comma(array)
         word = "and " + word
       end
     end
+    array.join
   end
-  array.join
+  
 end
