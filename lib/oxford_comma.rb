@@ -11,7 +11,7 @@ def oxford_comma(array)
         word << ", "
         counter += 1
       end
-        word.unshift("and ")
+        word = "and " + word
     end
    end
 
