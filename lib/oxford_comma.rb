@@ -7,7 +7,7 @@ def oxford_comma(array)
   elsif array.size == 2
     array.join(" and ")
   else array.size >= 3
-    counter = 2
+    counter = 3
     array.each do |word|
       if array.size > counter
         word << ","
