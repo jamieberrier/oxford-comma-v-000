@@ -9,7 +9,7 @@ def oxford_comma(array)
   elsif array.size >= 3
     counter = 0
     array.each do |word|
-      if array.size > counter
+      if array.size > counter - 1
         word << ", "
         counter += 1
       else
