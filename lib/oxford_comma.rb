@@ -12,7 +12,7 @@ def oxford_comma(array)
       if array.size > counter
         word << ","
         counter += 1
-      else
+      else array.size == counter
         word = "and " + word
       end
       #binding.pry
