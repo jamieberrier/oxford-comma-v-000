@@ -7,12 +7,13 @@ def oxford_comma(array)
   else array.size >= 3
     counter = 0
     array.each do |word|
-      while array.size > counter
+      if array.size > counter
         word << ", "
         counter += 1
+      else
+        word = "and " + word
       end
-                word = "and " + word
     end
-   end
+  end
 
 end
