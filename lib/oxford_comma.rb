@@ -13,7 +13,7 @@ def oxford_comma(array)
         word << ","
       else
         word = "and " + word
-      binding.pry
+  binding.pry
         counter += 1
       end
     end
