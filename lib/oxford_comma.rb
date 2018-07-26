@@ -10,7 +10,6 @@ def oxford_comma(array)
     array.each do |word|
       if array.size > array.index
         word << ","
-        counter += 1
       else array.size == array.index
         word = "and " + word
       end
